@@ -9,6 +9,7 @@ wartremoverErrors ++= Warts.unsafe
 coverageEnabled := true
 
 wartremoverExcluded += baseDirectory.value / "src" / "test" / "scala" / "NumbersTest.scala"
+wartremoverExcluded += baseDirectory.value / "src" / "test" / "scala" / "AtbashTest.scala"
 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.1"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
